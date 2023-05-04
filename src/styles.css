@@ -1,0 +1,29 @@
+/*
+font-family: 'Carter One', cursive;
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+    width: 25em;
+    height: 25em;
+    padding: 20px;
+}
+h1 {
+    font-size: 32px;
+}
