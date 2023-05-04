@@ -96,7 +96,7 @@ module.exports = (env, argv) => {
     "build": "webpack --config webpack.config.js --mode production"
     },
 
-### 6. Включить опцию esModuleInterop в конфигурации TypeScript и добавить параметр 
+### 6. Создать файл tsconfig.json и включить опцию esModuleInterop в конфигурации TypeScript и добавить параметр 
 "jsx": "react" - , который указывает, какой синтаксис использовать для JSX-выражений в TypeScript.
 
     {
